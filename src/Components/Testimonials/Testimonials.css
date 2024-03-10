@@ -1,0 +1,36 @@
+.testimonials_sm {
+    color: #212ea0;
+  }
+  .testimonials_bg {
+    color: #000f38;
+    font-weight: bolder;
+  }
+  .card-up {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%286%29.jpg");
+    height:230px ;
+    background-position: center top; /* Move the background image to the top */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.avatar {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 160px;
+  position: relative;
+}
+.avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: -150px;
+}
+.border-height{
+  height:50px;
+}
+.big{
+  color: #000f38;
+}
+.small{
+  color: #212ea0;
+}

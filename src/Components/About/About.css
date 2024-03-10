@@ -1,0 +1,19 @@
+.about_sm{
+    color:#212ea0;
+    font-weight: 600;
+}
+.about_bg{
+    color:#000f38;
+    font-weight: bolder;
+}
+.video-img{
+    position: relative;
+}
+.play_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}

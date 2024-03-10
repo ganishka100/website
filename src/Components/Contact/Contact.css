@@ -1,0 +1,39 @@
+.contact_sm {
+    color: #212ea0;
+  }
+  .contact_bg {
+    color: #000f38;
+    font-weight: bolder;
+  }
+   .contact-form{
+    background-color:#ebecfe;
+    padding:50px;
+    box-shadow: 0 2px 15px rgba(0 0 0 / 4%);
+  }
+  .contact-form input{
+    border: 1px solid #212ea0;
+  }
+  .contact .contact-form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    
+  }
+  .contact .contact-form .form-control::placeholder{
+    color:#061738;
+  }
+   
+  .contact_btn{
+    background-color: #212ea0;
+    color:white;
+  }
+  .contact_btn:hover{
+    background-color: black;
+    color:white;
+  }
+  i{
+    color: #212ea0;
+    font-size: 22px;
+  }
+  .sending{
+    display: block;
+  }

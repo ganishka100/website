@@ -1,0 +1,17 @@
+.hero{
+    width: 100%;
+    height: 605px;
+    background:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url("../../Images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    color:#fff;
+}
+p{
+    line-height: 1.5;
+}
+.but-hero:hover{
+    background-color: black;
+    color: #fff;
+}

@@ -1,0 +1,80 @@
+.campus_sm {
+  color: #212ea0;
+}
+.campus_bg {
+  color: #000f38;
+  font-weight: bolder;
+}
+.campus_btn{
+  background-color: #212ea0;
+  color: white;
+}
+.campus_btn{
+  background-color: #212ea0;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-box {
+  width: 100px;
+  height: 500px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+.img-box:nth-child(1) {
+  background-image: url("../../Images//gallery-1.png");
+}
+.img-box:nth-child(2) {
+  background-image: url("../../Images//gallery-2.png");
+}
+.img-box:nth-child(3) {
+  background-image: url("../../Images//gallery-3.png");
+}
+.img-box:nth-child(4) {
+  background-image: url("../../Images//gallery-4.png");
+}
+.img-box h3 {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  opacity: 0;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+.img-box:hover {
+  width: 300px;
+  cursor: pointer;
+}
+.img-box:hover h3 {
+  opacity: 1;
+  bottom: 25px;
+}
+.img_bg {
+  color: #212ea0;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+  .img-box {
+    width: 80%;
+    height: 300px;
+  }
+  .img-box h3 {
+    left: 40px;
+  }
+}
